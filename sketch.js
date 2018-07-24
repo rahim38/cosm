@@ -62,13 +62,13 @@ function setup() //appeler qu'une fois au début et elle nous sert à paramétre
     //nombre d'image par seconde
     imgfond = loadImage("media/2.jpg")
     //fichier à télécharger pour l'image de fond
-    buttonPhoto = createImg('media/Photo.png');
+    buttonPhoto = createImg('media/photo.png');
     //créer le bouton
     buttonPhoto.mousePressed(comptearebours);
     //quand tu clique sur le bouton la fonction photo est apeller
     text()
     textSize(100)
-    buttonSuivant = createImg("media/Photo.png")  
+    buttonSuivant = createImg("media/suivant.png")  
     buttonSuivant.mousePressed(suivant)
     buttonHide = createImg('media/disparaitre.png')
     //créer un button
