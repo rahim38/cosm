@@ -68,7 +68,7 @@ function setup() //appeler qu'une fois au début et elle nous sert à paramétre
     //quand tu clique sur le bouton la fonction photo est apeller
     text()
     textSize(100)
-    buttonSuivant = createImg("media/suivant.png")  
+    buttonSuivant = createImg("media/Photo.png")  
     buttonSuivant.mousePressed(suivant)
     buttonHide = createImg('media/disparaitre.png')
     //créer un button
